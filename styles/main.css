@@ -133,3 +133,97 @@ h1 {
 	border-radius: 4px;
 	background: hsl(23, 64%, 42%);
 }
+
+main {
+	margin-top: 30px;
+
+}
+
+.habbit {
+	background: #fff;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
+}
+
+.habbit__day {
+	background: #fbfcf9;
+	border-radius: 10px 0 0 10px;
+	border-right: 1px solid #e7ebfb;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 20px 40px;
+	min-width: 150px;
+}
+
+.habbit__comment {
+	font-size: 16px;
+	line-height: 18px;
+	padding: 20px 25px;
+}
+
+.habbit__delete {
+	margin-left: auto;
+	margin-right: 15px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 3px;
+}
+
+.habbit__delete:hover {
+	background: rgb(224, 231, 243);
+
+}
+
+input {
+	background: #fff;
+	border: 1px solid #E7EBFB;
+	border-radius: 9px;
+	padding: 12px 20px;
+	font-family: 'Comfortaa', sans-serif;
+	flex: 1;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+input::placeholder {
+	color: #8899A8;
+}
+
+.habbit__form {
+	display: flex;
+	gap: 15px;
+	width: 100%;
+	padding: 0px 25px;
+	position: relative;
+}
+
+.input_icon {
+	padding-left: 45px;
+}
+
+.input__icon {
+	position: absolute;
+	top: 10px;
+	left: 45px;
+
+}
+
+.habbit__add {
+	background: #e8b7a0;
+	border-radius: 9px;
+	border: none;
+	font-size: 13px;
+	line-height: 14px;
+	color: #000;
+	padding: 14px 30px;
+	cursor: pointer;
+}
+
+.habbit__add:hover {
+	background: #d6784c;
+}
